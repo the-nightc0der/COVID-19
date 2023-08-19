@@ -18,6 +18,29 @@
 
 This repository contains scripts and notebooks for analyzing and visualizing COVID-19 data using Python. The goal is to provide insights into the spread and impact of the pandemic through data analysis and visualization.
 
+## Models Used
+
+### Compartmental Models
+
+This repository employs compartmental models to simulate and analyze the spread of COVID-19. Compartmental models divide a population into different compartments based on their health status, allowing us to understand the dynamics of disease transmission.
+
+- **SEIR Model**: The Susceptible-Exposed-Infectious-Recovered (SEIR) model is used to track the progression of individuals through different stages of infection. It includes an "Exposed" compartment to represent individuals in the latent period.
+
+- **SIR Model**: The Susceptible-Infectious-Recovered (SIR) model is a simplified version of the SEIR model, assuming that there is no exposed period. It helps us understand the basic dynamics of infectious disease spread.
+
+- **SIRD Model**: The Susceptible-Infectious-Recovered-Deceased (SIRD) model is an extension of the SIR model that includes a compartment for individuals who unfortunately do not recover and succumb to the disease.
+
+### Hybrid Models
+
+To enhance the accuracy of predictions, we employ hybrid models that combine compartmental models with machine learning techniques.
+
+- **SEIR + Machine Learning**: This hybrid model combines the SEIR compartmental model with machine learning algorithms. It uses historical data to train a machine learning model that predicts future trends in COVID-19 cases, enhancing our understanding of the disease's trajectory.
+
+These models provide valuable insights into the progression of the pandemic and aid decision-making by policymakers and healthcare professionals.
+
+For more details and to explore the implementation, refer to the notebooks and scripts in the repository.
+
+
 ## Installation
 
 To run the scripts and notebooks in this repository, you'll need Python and some additional packages. Here's how to set up your environment:
