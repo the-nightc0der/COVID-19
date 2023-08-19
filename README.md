@@ -26,3 +26,9 @@ To run the scripts and notebooks in this repository, you'll need Python and some
    ```sh
    git clone https://github.com/the-nightc0der/COVID-19.git
    cd COVID-19
+2. Create a virtual environment (recommended):   
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+3. Install the required packages:
+   pip install -r requirements.txt
+
